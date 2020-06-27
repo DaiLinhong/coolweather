@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="15dp"
-    android:background="@color/white_gray"
+    android:background="@color/a300up"
     android:orientation="vertical">
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:text="预报"
-        android:textColor="@color/white_gray"
+        android:textColor="@color/a300up"
         android:textSize="20sp" />
 
     <LinearLayout

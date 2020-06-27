@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white_gray"
+    android:background="@color/colorSimple"
     android:padding="15dp"
     android:layout_marginTop="15dp"
     android:orientation="vertical">
@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="空气质量"
-        android:textColor="@color/white_gray"
+        android:textColor="@color/a100"
         android:textSize="20sp" />
 
     <LinearLayout
@@ -35,7 +35,7 @@
                     android:id="@+id/txt_aqi"
                     android:layout_height="wrap_content"
                     android:textSize="40sp"
-                    android:textColor="@color/white_gray"
+                    android:textColor="@color/a150"
                     android:layout_gravity="center" />
 
                 <TextView
@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="aqi指数"
-                    android:textColor="@color/white_gray" />
+                    android:textColor="@color/a150" />
             </LinearLayout>
         </RelativeLayout>
 
@@ -62,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/txt_ap25"
                     android:textSize="40sp"
-                    android:textColor="@color/white_gray"
+                    android:textColor="@color/a200"
                     android:layout_gravity="center" />
 
                 <TextView
@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="pm2.5指数"
-                    android:textColor="@color/white_gray" />
+                    android:textColor="@color/a150" />
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>
